@@ -60,7 +60,11 @@ This .zip file contains three .csv files that are used to make figures that are 
    - _time_group_: Map associated with observations;
    - _esa_: 1 of 6 overlapping energy passbands at which "true" ENAs + isotropic background or anisotropic background may be observed.
 
-#
+## Attribution
+If you use any of the LOTUS framework or results in your work, please cite the following paper:
+
+Madeline A. Stricklin, Lauren J. Beesley, Brian P. Weaver, Kelly R. Moran, Dave Osthus, Paul H. Janzen, Grant David Meadors, and Daniel B. Reisenfeld. Moving Towards Automated Interstellar Boundary Explorer Data Selection with LOTUS. Submitted to Statistical Analysis and Data Mining. 
+
 Copyright 2023 for CO4627
 
 This program is Open-Source under the BSD-3 License.   Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
