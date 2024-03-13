@@ -20,9 +20,10 @@ Installation should take less than 15 minutes on a normal desktop computer.
 The code provided serves to reproduce the figures associated with Stricklin et al. (2024). There are two data sources that are considered:
 1. Orbit_Data.zip: This .zip file contains two .csv files that are used to make figures that are produced from the labels and probabilities that are produced directly from LOTUS (these correspond to Figures 1 through 5, and all Appendix Figures in Stricklin et al. (2024)).
    - Orbit_471.csv is a 302770 x 14 dimensional data frame that contains the following variables:
+     - ESA: 1 of 6 overlapping energy passbands at which "true" ENAs + isotropic background or anisotropic background may be observed
      - Angle_Bin: 1 of 60 six-degree bins that inform on the position of IBEX within a given 3-dimensional circular slice of the sky;
      - Orbit: An approximately 4.5 day period over which IBEX collects data;
-     - ESA_Sweep: 1 of 6 overlapping energy passbands at which ENAs or background may be observed;
+     - ESA_Sweep: 1 of 6 overlapping energy passbands at which ENAs + isotropic background or anisotropic backgroundmay be observed (similar variable to ESA, but serves a different purpose for certain plots);
      - Time_UTC: Time associated with a given ESA (true or background) observation;
      - Label: "True" label assigned by SME (0 refers to a "bad" time (anisotropic background), 1 refers to a "good" time ("true" ENAs + isotropic background);
      - Counts: The number of ENAs ("true" + isotropic background or anisotropic background) observed;
@@ -32,8 +33,20 @@ The code provided serves to reproduce the figures associated with Stricklin et a
      - L2_Labs: Labels output by LOTUS Stage 2; 
      - L2_Probs_SPICE: Probability of a "good" time output by LOTUS Stage 2, accounting for SPICE spatial positioning data that may have been washed out during LOTUS Stage 2 probability aggregation;
      - L3_Labs: Labels output by LOTUS Stage 3; 
-     - L3_Probs: Probability of a "good" time output by LOTUS Stage 3;
-   - ENA_Rates.csv is 
+     - L3_Probs: Probability of a "good" time output by LOTUS Stage 3.
+   - ENA_Rates.csv is 333180 x 12 dimensional data frame that contains the following variables:
+     - ESA: 1 of 6 overlapping energy passbands at which "true" ENAs + isotropic background or anisotropic background may be observed
+     - Angle_Bin: 1 of 60 six-degree bins that inform on the position of IBEX within a given 3-dimensional circular slice of the sky;
+     - Orbit: An approximately 4.5 day period over which IBEX collects data;
+     - ESA_Sweep: 1 of 6 overlapping energy passbands at which ENAs + isotropic background or anisotropic backgroundmay be observed (similar variable to ESA, but serves a different purpose for certain plots);
+     - Orbit_ABs: An approximately 4.5 day period over which IBEX collects data;
+     - Time associated with a given ESA (true or background) observation;
+     - Label: "True" label assigned by SME (0 refers to a "bad" time (anisotropic background), 1 refers to a "good" time ("true" ENAs + isotropic background);
+     - Counts: The number of ENAs ("true" + isotropic background or anisotropic background) observed;
+     - Time_SME: Total exposure time associated with SME-designated "good" labels for a given angle bin;
+     - SME_Rate: SME ENA rate (total SME-designated "good" labels divided by total exposure time) for a given angle bin;
+     - L1_Rate: LOTUS Stage 1 ENA rate (total LOTUS Stage 1 "good" labels divided by total exposure time) for a given angle bin;
+     - L3_Rate: LOTUS Stage 3 ENA rate (total LOTUS Stage 3 "good" labels divided by total exposure time) for a given angle bin;
 3. ISOC_Data.zip
 
 #
