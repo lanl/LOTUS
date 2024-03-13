@@ -33,6 +33,7 @@ The code provided serves to reproduce the figures associated with Stricklin et a
      - L2_Probs_SPICE: Probability of a "good" time output by LOTUS Stage 2, accounting for SPICE spatial positioning data that may have been washed out during LOTUS Stage 2 probability aggregation;
      - L3_Labs: Labels output by LOTUS Stage 3; 
      - L3_Probs: Probability of a "good" time output by LOTUS Stage 3;
+   - ENA_Rates.csv is 
 3. ISOC_Data.zip
 
 #
