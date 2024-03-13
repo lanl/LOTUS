@@ -68,7 +68,7 @@ If you use any of the LOTUS framework or results in your work, please cite the f
 
 MA Stricklin, LJ Beesley, BP Weaver, KR Moran, D Osthus, PH Janzen, GD Meadors, and DB Reisenfeld. Moving Towards Automated Interstellar Boundary Explorer Data Selection with LOTUS. Submitted to Statistical Analysis and Data Mining.
 #
-Copyright 2023 for **CO4627**
+Copyright 2024 for **CO4627**
 
 This program is Open-Source under the BSD-3 License.   Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 1. Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
