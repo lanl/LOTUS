@@ -17,7 +17,7 @@ To downloading and install software and packages:
 Installation should take less than 15 minutes on a normal desktop computer.
 
 ## Demonstration 
-Data is provided in **ISOC_Data.zip** and **Orbit_Data.zip**. Details on these data files are provided below. The code provided serves to reproduce the figures associated with Stricklin et al. (2024), and can be found in **LOTUS_Demo.R**.
+Data is provided in **ISOC_Data.zip** and **Orbit_Data.zip**. Details on these data files are provided below. The code provided serves to reproduce the figures associated with Stricklin et al. (2024), and can be found in **LOTUS_Demo.R**. The file **ibex_rgb.csv** is used as a color scheme for some of the figures.
 
 ## Instructions for use
 After installing R, run **LOTUS_Demo.R** to reproduce the figures found in Stricklin et al. (2024). Users will need to define the paths at which have saved the two data .zip files on their computer, as well as the path at which they wish to save their plots. This is the only segment in the code that will need to be changed, and can be found at the very top of the code in the call box from lines 14-23.
