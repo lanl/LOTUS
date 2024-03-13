@@ -18,8 +18,22 @@ Installation should take less than 15 minutes on a normal desktop computer.
 
 ## Demonstration 
 The code provided serves to reproduce the figures associated with Stricklin et al. (2024). There are two data sources that are considered:
-1. Orbit_Data.zip
-2. ISOC_Data.zip
+1. Orbit_Data.zip: This .zip file contains two .csv files that are used to make figures that are produced from the labels and probabilities that are produced directly from LOTUS (these correspond to Figures 1 through 5, and all Appendix Figures in Stricklin et al. (2024)).
+   - Orbit_471.csv is a 302770 x 14 dimensional data frame that contains the following variables:
+     - Angle_Bin: 1 of 60 six-degree bins that inform on the position of IBEX within a given 3-dimensional circular slice of the sky;
+     - Orbit: An approximately 4.5 day period over which IBEX collects data;
+     - ESA_Sweep: 1 of 6 overlapping energy passbands at which ENAs or background may be observed;
+     - Time_UTC: Time associated with a given ESA (true or background) observation;
+     - Label: "True" label assigned by SME (0 refers to a "bad" time (anisotropic background), 1 refers to a "good" time ("true" ENAs + isotropic background);
+     - Counts: The number of ENAs ("true" + isotropic background or anisotropic background) observed;
+     - L1_Probs: Probability of a "good" time output by LOTUS Stage 1;
+     - L1_Labs: Labels output by LOTUS Stage 1;
+     - L2_Probs: Probability of a "good" time output by LOTUS Stage 2;
+     - L2_Labs: Labels output by LOTUS Stage 2; 
+     - L2_Probs_SPICE: Probability of a "good" time output by LOTUS Stage 2, accounting for SPICE spatial positioning data that may have been washed out during LOTUS Stage 2 probability aggregation;
+     - L3_Labs: Labels output by LOTUS Stage 3; 
+     - L3_Probs: Probability of a "good" time output by LOTUS Stage 3;
+3. ISOC_Data.zip
 
 #
 Copyright 2023 for CO4627
