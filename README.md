@@ -17,7 +17,7 @@ To downloading and install software and packages:
 Installation should take less than 15 minutes on a normal desktop computer.
 
 ## Demonstration 
-Data is provided in **ISOC_Data.zip** and **Orbit_Data.zip**. Details on these data files are provided below. The code provided serves to reproduce the figures associated with Stricklin et al. (2024), and can be found in **LOTUS_Demo.R**. The file **ibex_rgb.csv** is used as a color scheme for some of the figures.
+Data is provided in **ISOC_Data.zip** and **Orbit_Data.zip**. Details on these data files are provided below. The code provided serves to reproduce the figures associated with Stricklin et al. (2024), and can be found in **LOTUS_Demo.R**.
 
 ## Instructions for use
 After installing R, run **LOTUS_Demo.R** to reproduce the figures found in Stricklin et al. (2024). Users will need to define the paths at which have saved the two data .zip files on their computer, as well as the path at which they wish to save their plots. This is the only segment in the code that will need to be changed, and can be found at the very top of the code in the call box from lines 14-23.
@@ -27,7 +27,7 @@ After installing R, run **LOTUS_Demo.R** to reproduce the figures found in Stric
 
 ## Data Details
 
-### A. Orbit_Data.zip
+### Orbit_Data.zip
 This .zip file contains two .csv files that are used to make figures that are produced from the labels and probabilities that are produced directly from LOTUS (these correspond to Figures 1 through 5, and all Appendix Figures in Stricklin et al. (2024)).
 
 **Orbit_471.csv** is a data frame that contains the following variables for all ESAs and Angle Bins for _Orbit 471_:
@@ -54,14 +54,22 @@ This .zip file contains two .csv files that are used to make figures that are pr
    - _L1_Rate_: LOTUS Stage 1 ENA rate (total LOTUS Stage 1 "good" labels divided by total exposure time) for a given angle bin;
    - _L3_Rate_: LOTUS Stage 3 ENA rate (total LOTUS Stage 3 "good" labels divided by total exposure time) for a given angle bin;
 
-### B. ISOC_Data.zip
-This .zip file contains three .csv files that are used to make figures that are produced from byproducts of the labels that result from LOTUS (these correspond to Figures 6 through 11 in Stricklin et al. (2024)). These files are used for producing ISOC maps for the years 2009 through 2021. **ISOC_SME.csv** is used for producing maps associated with SME-generated labels; **ISOC_L1.csv** is used for producing maps associated with LOTUS Stage 1 labels; **ISOC_L3.csv** is used for producing maps that are associated with LOTUS Stage 3 labels. All files in this .zip file contain the same six variables:
+### ISOC_Data.zip
+This .zip file contains three .csv files that are used to make ISOC-like sky maps that are produced from byproducts of the labels that result from LOTUS (these correspond to Figures 6 through 11 in Stricklin et al. (2024)). These files are used for producing ISOC-like maps for the years 2009 through 2021. **ISOC_SME.csv** is used for producing maps associated with SME-generated labels; **ISOC_L1.csv** is used for producing maps associated with LOTUS Stage 1 labels; **ISOC_L3.csv** is used for producing maps that are associated with LOTUS Stage 3 labels. All files in this .zip file contain the same six variables:
    - _lon_: Longitude associated with observations;
    - _lat_: Latitude associated with observations;
    - _ena_flux_prop_: Transformed version of ENA rate
    - _total_exposure_time_: Total time corresponding to "good" ENA times used to calculate ena_flux_prop;
    - _time_group_: Map associated with observations;
    - _esa_: 1 of 6 overlapping energy passbands at which "true" ENAs + isotropic background or anisotropic background may be observed.
+
+### **ibex_rgb.csv** 
+This .csv file is a 4-column data frame containing the pixel color information for making the ISOC-like sky maps:
+   - red: red numeric value
+   - green: green numeric value
+   - blue: blue numeric value
+   - hex: hex value
+
 
 ## Attribution and Copyright 
 If you use any of the LOTUS framework or results in your work, please cite the following paper:
