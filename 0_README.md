@@ -35,18 +35,12 @@ This .zip file contains two .csv files that are used to make figures that are pr
    - _L2_Probs_: Probability of a "good" time output by LOTUS Stage 2;
    - _L2_Labs_: Labels output by LOTUS Stage 2; 
    - _L2_Probs_SPICE_: Probability of a "good" time output by LOTUS Stage 2, accounting for SPICE spatial positioning data that may have been washed out during LOTUS Stage 2 probability aggregation;
-   - L3_Labs: Labels output by LOTUS Stage 3; 
-   - L3_Probs: Probability of a "good" time output by LOTUS Stage 3.
+   - _L3_Labs_: Labels output by LOTUS Stage 3; 
+   - _L3_Probs_: Probability of a "good" time output by LOTUS Stage 3.
 
-**ENA_Rates.csv** is a data frame that contains the following variables across all ESAs and Angle Bins for _all Orbits_:
-   - _ESA_: 1 of 6 overlapping energy passbands at which "true" ENAs + isotropic background or anisotropic background may be observed;
-   - _Angle_Bin_: 1 of 60 six-degree bins that inform on the position of IBEX within a given 3-dimensional circular slice of the sky;
-   - _Orbit_: An approximately 4.5 day period over which IBEX collects data;
-   - _ESA_Sweep_: 1 of 6 overlapping energy passbands at which ENAs + isotropic background or anisotropic backgroundmay be observed (similar variable to ESA, but serves a different purpose for_ _certain plots);
+**ENA_Rates.csv** is a data frame that contains the following variables across all ESAs and Angle Bins for _all Orbits_. The variables _ESA_, _Angle_Bin_, _ESA_Sweep_, _Time_, _Label_, and _Counts_ are the same as in Orbit_471.csv.
    - _Orbit_ABs_: An approximately 4.5 day period over which IBEX collects data;
    - _Time_: Time stamp associated with a given ESA (true or background) observation;
-   - _Label_: "True" label assigned by SME (0 refers to a "bad" time (anisotropic background), 1 refers to a "good" time ("true" ENAs + isotropic background);
-   - _Counts_: The number of ENAs ("true" + isotropic background or anisotropic background) observed;
    - _Time_SME_: Total exposure time associated with SME-designated "good" labels for a given angle bin;
    - _SME_Rate_: SME ENA rate (total SME-designated "good" labels divided by total exposure time) for a given angle bin;
    - _L1_Rate_: LOTUS Stage 1 ENA rate (total LOTUS Stage 1 "good" labels divided by total exposure time) for a given angle bin;
