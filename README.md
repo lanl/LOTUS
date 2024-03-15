@@ -47,7 +47,7 @@ This .zip file contains two .csv files that are used to make figures that are pr
    - _L3_Labs_: Labels output by LOTUS Stage 3; 
    - _L3_Probs_: Probability of a "good" time output by LOTUS Stage 3.
 
-**ENA_Rates.csv** is a data frame that contains the following variables across all ESAs and Angle Bins for _all Orbits_. The variables _ESA_, _Angle_Bin_, _ESA_Sweep_, _Time_, _Label_, and _Counts_ are the same as in Orbit_471.csv.
+**ENA_Rates.csv** is a data frame that contains the following variables across all ESAs and Angle Bins for _all Orbits_. The variables _ESA_, _Angle_Bin_, _ESA_Sweep_, and _Time_ are the same as in Orbit_471.csv.
    - _Orbit_ABs_: An approximately 4.5 day period over which IBEX collects data;
    - _Time_: Time stamp associated with a given ESA (true or background) observation;
    - _Time_SME_: Total exposure time associated with SME-designated "good" labels for a given angle bin;
