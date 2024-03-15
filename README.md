@@ -1,5 +1,6 @@
 # LOTUS
-Code associated with automated culling process for distinguishing between heliospheric ENA particles and incidental background particles detected by NASA's IBEX satelite. This method is described in Stricklin et al. (2024).
+Code associated with automated culling process for distinguishing between heliospheric ENA particles and incidental background particles detected by NASA's IBEX satelite. This method is described in [Stricklin et al. (2024)](https://arxiv.org/abs/2403.08891).
+
 
 ## Introduction
 The Interstellar Boundary Explorer (IBEX) satellite collects data on energetic neutral atoms (ENAs) that provide insight into the heliosphere, the region that surrounds our solar system and separates it from interstellar space. IBEX collects information on these particles and on extraneous ''background'' particles. While IBEX records how and when the different particles are observed, it is not able to distinguish between heliospheric ENA particles and incidental background particles. To address this issue, all IBEX data has historically been manually labeled by a subject matter expert (SME) as ''good'' ENA data, or ''bad'' background data. This manual culling process is incredibly time-intensive, and is contingent on subjective, manually-induced decision thresholds. 
