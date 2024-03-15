@@ -26,6 +26,7 @@ After installing R, run **LOTUS_Demo.R** to reproduce the figures found in Stric
 
 >[!NOTE]
 >The "good" and "bad" time labels have not yet been officially released by the IBEX community. We have received permission to release the labels for Orbit 471, included in Orbit_471.csv.
+>
 >The data required to train LOTUS and make subsequent "good" and "bad" label predictions for the various orbits is extremely large (33.2 GB), and so is not included in this repository. Please reach out to the author for additional LOTUS data and code.
 
 ### Orbit_Data.zip
