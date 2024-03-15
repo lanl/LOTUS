@@ -22,10 +22,11 @@ Data is provided in **ISOC_Data.zip** and **Orbit_Data.zip**. Details on these d
 ## Instructions for use
 After installing R, run **LOTUS_Demo.R** to reproduce the figures found in Stricklin et al. (2024). Users will need to define the paths at which have saved the two data .zip files on their computer, as well as the path at which they wish to save their plots. This is the only segment in the code that will need to be changed, and can be found at the very top of the code in the call box from lines 14-23.
 
->[!NOTE]
->The data required to train LOTUS and make subsequent "good" and "bad" label predictions for the various orbits is extremely large (33.2 GB), and so is not included in this repository. Please reach out to the author for additional LOTUS data and code.
-
 ## Data Details
+
+>[!NOTE]
+>The "good" and "bad" time labels have not yet been officially released by the IBEX community. We have received permission to release the labels for Orbit 471, included in Orbit_471.csv.
+>The data required to train LOTUS and make subsequent "good" and "bad" label predictions for the various orbits is extremely large (33.2 GB), and so is not included in this repository. Please reach out to the author for additional LOTUS data and code.
 
 ### Orbit_Data.zip
 This .zip file contains two .csv files that are used to make figures that are produced from the labels and probabilities that are produced directly from LOTUS (these correspond to Figures 1 through 5, and all Appendix Figures in Stricklin et al. (2024)).
