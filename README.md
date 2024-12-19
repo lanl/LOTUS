@@ -77,7 +77,7 @@ This .csv file is a 4-column data frame containing the pixel color information f
 ## Attribution and Copyright 
 If you use any of the LOTUS framework or results in your work, please cite the following paper:
 
-MA Stricklin, LJ Beesley, BP Weaver, KR Moran, D Osthus, PH Janzen, GD Meadors, and DB Reisenfeld. Moving Towards Automated Interstellar Boundary Explorer Data Selection with LOTUS. [Submitted to Statistical Analysis and Data Mining](https://arxiv.org/abs/2403.08891).
+MA Stricklin, LJ Beesley, BP Weaver, KR Moran, D Osthus, PH Janzen, GD Meadors, and DB Reisenfeld. Moving Towards Automated Interstellar Boundary Explorer Data Selection with LOTUS. [Submitted to Annals of Applied Statistics](https://arxiv.org/abs/2403.08891).
 #
 Copyright 2024 for **CO4627**
 
